@@ -1,0 +1,58 @@
+body {
+  width: 375px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(204, 201, 201);
+  margin: 20px;
+}
+
+header {
+  height: 80px;
+}
+
+h1 {
+  color: rgb(123, 39, 180);
+}
+
+hr {
+  color: rgb(123, 39, 180);
+  width: 80%;
+}
+
+p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.showing-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.hidden-div {
+  display: none;
+}
+
+input {
+  margin: 5px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(123, 39, 180);
+  height: 25px;
+}
+
+button {
+  background-color: rgb(123, 39, 180);
+  color: aliceblue;
+  border-radius: 6px;
+  height: 23px;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.output-calc {
+  margin: 10px;
+}
